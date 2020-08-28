@@ -1,0 +1,140 @@
+{
+  "Nombre": "Taylor Swift",
+  "OyentesMensuales": 47726362,
+  "PaísDeOrigen": "Estados Unidos",
+  "Website": "https://taylorswift.com",
+  "Álbumes/EP": 
+  [
+    {
+      "TítuloA/EP": "folklore",
+      "DuraciónTotal": "1 h 7 min",
+      "Géneros": "Rock alternativo, indie folk, electrofolk, chamber pop",
+      "NúmeroDeCanciones": 17,
+      "SelloDiscográfico": "Republic Records",
+      "FechaDeLanzamiento": "24 de julio de 2020",
+      "Canciones": 
+      [
+        {
+          "TítuloCanción": "the 1",
+          "Duración": "03:30",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "cardigan",
+          "Duración": "03:59",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": true
+        },
+        {
+          "TítuloCanción": "the last great american dynasty",
+          "Duración": "03:50",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "exile (feat. Bon Iver)",
+          "Duración": "04:45",
+          "Escritor": "Justin Vernon, Taylor Swift, William Bowery",
+          "Productor": "Aaron Dessner",
+          "Sencillo": true
+        },
+        {
+          "TítuloCanción": "my tears ricochet",
+          "Duración": "04:15",
+          "Escritor": "Taylor Swift",
+          "Productor": "Jack Antonoff, Taylor Swift",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "mirrorball",
+          "Duración": "03:28",
+          "Escritor": "Jack Antonoff, Taylor Swift",
+          "Productor": "Jack Antonoff, Taylor Swift",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "seven",
+          "Duración": "03:28",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "august",
+          "Duración": "04:21",
+          "Escritor": "Jack Antonoff, Taylor Swift",
+          "Productor": "Jack Antonoff, Taylor Swift",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "this is me trying",
+          "Duración": "03:15",
+          "Escritor": "Jack Antonoff, Taylor Swift",
+          "Productor": "Jack Antonoff, Taylor Swift",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "illicit affairs",
+          "Duración": "03:10",
+          "Escritor": "Jack Antonoff, Taylor Swift",
+          "Productor": "Jack Antonoff, Taylor Swift",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "invisible string",
+          "Duración": "04:12",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "mad woman",
+          "Duración": "03:57",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "epiphany",
+          "Duración": "04:49",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "betty",
+          "Duración": "04:54",
+          "Escritor": "Taylor Swift, William Bowery",
+          "Productor": "Aaron Dessner, Jack Antonoff, Taylor Swift",
+          "Sencillo": true
+        },
+        {
+          "TítuloCanción": "peace",
+          "Duración": "03:54",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "hoax",
+          "Duración": "03:40",
+          "Escritor": "Aaron Dessner, Taylor Swift",
+          "Productor": "Aaron Dessner",
+          "Sencillo": false
+        },
+        {
+          "TítuloCanción": "the lakes - bonus track",
+          "Duración": "03:31",
+          "Escritor": "Jack Antonoff, Taylor Swift",
+          "Productor": "Jack Antonoff, Taylor Swift",
+          "Sencillo": false
+        }
+      ]
+    }
+  ]
+
+}
