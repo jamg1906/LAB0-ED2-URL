@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "c55f4630-dc83-4b46-843e-8724a964f238",
+		"name": "APIDemo TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lista de tipos de cambio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44332/api/exchangerate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44332",
+					"path": [
+						"api",
+						"exchangerate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista de tipo de cambio cambiando la moneda base",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44332/api/exchangerate?BaseCurrency=usd",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44332",
+					"path": [
+						"api",
+						"exchangerate"
+					],
+					"query": [
+						{
+							"key": "BaseCurrency",
+							"value": "usd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tipo de cambio de una fecha específica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44332/api/exchangerate/2020-08-01",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44332",
+					"path": [
+						"api",
+						"exchangerate",
+						"2020-08-01"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insertar tipo de cambio para un nuevo dia",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 6,\r\n    \"date\": \"2020-08-28T00:00:00\",\r\n    \"usd\": 7.71,\r\n    \"gtq\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44332/api/exchangerate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44332",
+					"path": [
+						"api",
+						"exchangerate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar información de tipo de cambio para un día:",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 6,\r\n    \"date\": \"2020-08-28T00:00:00\",\r\n    \"usd\": 11.71,\r\n    \"gtq\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44332/api/exchangerate/2020-08-28",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44332",
+					"path": [
+						"api",
+						"exchangerate",
+						"2020-08-28"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar información de tipo de cambio de un día",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44332/api/exchangerate/2020-08-28",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44332",
+					"path": [
+						"api",
+						"exchangerate",
+						"2020-08-28"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
